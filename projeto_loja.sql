@@ -103,6 +103,7 @@ FROM produtos
 JOIN categorias
 ON produtos.categoria_id = categorias.id;
 
+
 ALTER TABLE clientes
 ADD cpf VARCHAR(14);
 
